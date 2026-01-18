@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import WeatherCard from "./WeatherCard";
+import WeatherCard from "./weathercard";
 
 function WeatherApp() {
   const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
